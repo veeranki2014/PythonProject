@@ -1,7 +1,7 @@
 
-
-Multi Threading
-=================
+    ===============
+    Multi Threading
+    ===============
 
 ** A program is a set of instructions written to perform a particular task.
 
@@ -14,9 +14,9 @@ Ex:
 
 ** When we execute a any program, the operating system creates a process.
 
-============================
-What is a Process?
-============================
+    ============================
+    What is a Process?
+    ============================
 
 ** A process is a program that is currently running in our machine.
 
