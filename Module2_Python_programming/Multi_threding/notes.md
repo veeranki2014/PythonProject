@@ -1,7 +1,7 @@
 
-    ===============
-    Multi Threading
-    ===============
+===============
+# Multi Threading
+===============
 
 ** A program is a set of instructions written to perform a particular task.
 
