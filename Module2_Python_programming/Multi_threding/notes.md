@@ -1,7 +1,7 @@
 
-===============
+
 # Multi Threading
-===============
+
 
 ** A program is a set of instructions written to perform a particular task.
 
@@ -14,9 +14,9 @@ Ex:
 
 ** When we execute a any program, the operating system creates a process.
 
-============================
-What is a Process?
-============================
+
+## What is a Process?
+
 
 ** A process is a program that is currently running in our machine.
 
@@ -37,9 +37,9 @@ What is a Process?
 		-- Execution Environment
 
 
-======================
+
 ## What is a Thread?
-======================
+
 
 ** A thread is a small unit of execution inside a program/process.
 
@@ -55,9 +55,9 @@ What is a Process?
 Note: Multiple users are using same application at a time (in the background multiple threads are running).	
 
 
-===================
-Process vs Thread
-===================
+
+## Process vs Thread
+
 
 ** Process
 
@@ -76,16 +76,16 @@ Process vs Thread
 		-- A thread always belongs to a process.
 
 
-=======================
-What is Multitasking?
-=======================		
+
+## What is Multitasking?
+
 
 ** ** Multitasking means performing multiple tasks during the same period.
 
 
 ** There are two major types of multitasking:
 
-########### 1: Process based multi tasking
+########### 1: Process based multitasking
 
 ** Multiple programs run at the same time
 
@@ -94,10 +94,10 @@ What is Multitasking?
 		-- download file
 		-- upload file
 
-** Each application usaly runs as seperate process.		
+** Each application usually runs as separate process.		
 
 
-########### 2: Thread based multi tasking
+########### 2: Thread based multitasking
 
 ** Multiple tasks run inside the same program.
 
@@ -111,18 +111,18 @@ What is Multitasking?
 ** To implement Thread based multi-tasking we should know about Multi-Threading.
 
 
-========================
-What is Multithreading
-========================
+
+## What is Multithreading
+
 
 ** Multi-threading means executing multiple threads within the same process.
 
 ** when we have multiple independent tasks, we can use multi-threading to execute them parallelly.
 
 
-==================
-Real-Life Example
-===================
+
+## Real-Life Example
+
 
 ** Imagine a restaurant with only one employee.
 
@@ -147,9 +147,9 @@ Now imagine the restaurant has multiple employees:
 ** Each employee is represented as one Thread. 
 
 
-===============
-Main Thread
-===============
+
+## Main Thread
+
 
 ** Every Python program starts with one default thread called the main thread.
 
@@ -165,9 +165,9 @@ print("Active Thread Count :", threading.active_count())
 
 ----------
 
-=============================
-Creating Threads in Python
-=============================
+
+## Creating Threads in Python
+
 
 ** Python provides the "threading" module for multithreading.
 
